@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",//用于指定编译之后的版本目录
+    "module": "esnext",//module用来指定要使用的模板标准
+    "moduleResolution": "node",//用于选择模块解析策略，有"node"和"classic"两种类型
+    "strict": true,
+    "jsx": "preserve",//代码用于的开发环境
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,//通过导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性
+    "lib": ["esnext", "dom"],//用于指定要包含在编译中的库文件
+    "types": ["vite/client"],//用于指定需要包含的模块，只有在这里列出的模块的声明文件才会被加载
+    // "baseUrl": ".",  
+    // "paths": {
+    //     "@/*": ["src/*"],
+    // }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]//
+  
+  }
