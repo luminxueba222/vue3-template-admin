@@ -10,7 +10,7 @@ import App from "./App.vue";
 import { setupAntd } from "./utils/init";
 import router from "./router";
 // import store from "./store";
-console.log(12312);
+console.log("vsc");
 const app = createApp(App);
 setupAntd(app);
 // app.use(router).use(store).mount('#app')
