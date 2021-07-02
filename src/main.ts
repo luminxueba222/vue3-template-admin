@@ -9,7 +9,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { setupAntd } from './utils/init'
 import router from "./router";
-import store from "./store";
+// import store from "./store";
 const app =createApp(App)
 setupAntd(app);
-app.use(router).use(store).mount('#app')
+// app.use(router).use(store).mount('#app')
+app.use(router).mount('#app')
